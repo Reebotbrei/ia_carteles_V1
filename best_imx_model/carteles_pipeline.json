@@ -1,0 +1,12 @@
+{
+  "postprocess": [
+    {
+      "library": "imx500_dnn_inference.so",
+      "config": "/home/user/ia_carteles_V1/best_imx_model/dnnParams.xml"
+    },
+    {
+      "library": "object_detect_yolo_post.so",
+      "config": "/home/user/ia_carteles_V1/best_imx_model/yolo_post_config.json"
+    }
+  ]
+}

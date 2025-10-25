@@ -1,0 +1,16 @@
+{
+  "labels": "/home/user/ia_carteles_V1/best_imx_model/labels.txt",
+  "num_classes": 4,
+  "confidence_threshold": 0.35,
+  "nms_threshold": 0.45,
+  "output_layers": [
+    "Output.output_0.uid90",
+    "Output.output_1.uid91",
+    "Output.output_2.uid92",
+    "Output.output_3.uid93"
+  ],
+  "anchors": [10,13,16,30,33,23,30,61,62,45,59,119,116,90,156,198,373,326],
+  "strides": [8, 16, 32],
+  "input_width": 640,
+  "input_height": 640
+}

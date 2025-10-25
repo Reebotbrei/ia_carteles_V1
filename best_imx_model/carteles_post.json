@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "stages": [
+    {
+      "name": "imx500_inference",
+      "config": {
+        "model_path": "/home/user/ia_carteles_V1/best_imx_model/packerOut.zip",
+        "framework": "imx_npu"
+      }
+    }
+  ]
+}
+
